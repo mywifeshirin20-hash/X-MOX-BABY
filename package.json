@@ -1,0 +1,23 @@
+{
+  "name": "mox-bot-digital",
+  "version": "3.0.0",
+  "main": "index2.js",
+  "scripts": {
+    "start": "node telegram2.js",
+    "tg": "NO_MAIN=1 node telegram2.js",
+    "tg-with-main": "node telegram2.js",
+    "wa": "node index2.js",
+    "postinstall": "node scripts/download-ytdlp.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "@distube/ytdl-core": "latest",
+    "node-telegram-bot-api": "^0.66.0",
+    "pino": "^8.0.0",
+    "yt-search": "latest"
+  },
+  "optionalDependencies": {
+    "sharp": "latest",
+    "wa-sticker-formatter": "latest"
+  }
+}
